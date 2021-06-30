@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="static/css/style.css">
+    <link rel="stylesheet" type="javascript" href="static/js/logic.js">
     <title>Lifeboat</title>
 </head>
 
@@ -56,8 +57,8 @@
       </select><br>  
       <br>
 
-    <label for="class">Passenger Class:</label>
-      <select name="class" id="class">
+    <label for="passClass">Passenger Class:</label>
+      <select name="passClass" id="passClass">
         <option>First</option>
         <option>Second</option>
         <option>Third</option>
@@ -70,17 +71,12 @@
   <div class='outcome-box'>
     <h3 class='outcome'><strong>Outcome:</strong></h3>
       <p>With your chosen demographics, it is</p>
-      <p>NUMBER% likely that you would have survived</p>
+      <div class='result'>
+        NUMBER%
+      </div>
+      <p>likely that you would have survived</p>
   </div>
     
-
-  <footer class='footer'> Final Project - Alex Papparotto-Goodman, Brianna Papparotto </footer>
-</body>
-</html>
-
-<body>
-  <!-- your content here... -->
-  <!-- <script src="js/scripts.js"></script> -->
 
 </body>
 </html>
