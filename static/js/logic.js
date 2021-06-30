@@ -1,3 +1,5 @@
+
+
 function seeResults() {
     var genderField = document.getElementById('gender').value;
     var ageField = document.getElementById('age').value;
