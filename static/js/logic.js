@@ -5,16 +5,12 @@ function seeResults() {
     var childField = document.getElementById('children').value;
     var classField = document.getElementById('passClass').value;
 
-    var result = document.getElementById('result');
-    
-    if (nameField.length < 3) {
-        result.textContent = 'Username must contain at least 3 characters';
-        //alert('Username must contain at least 3 characters');
-    } else {
-        result.textContent = 'Your username is: ' + nameField;
-        //alert(nameField);
-    }
-    }
+    var result = document.getElementById('result').value;
 
-var subButton = document.getElementById('subButton');
-    subButton.addEventListener('click', getUserName, false); 
+}
+
+
+// plug variables into ml model 
+
+var resultsButton = document.getElementById('outcome-btn');
+    resultsButton.addEventListener('click', seeResults);
