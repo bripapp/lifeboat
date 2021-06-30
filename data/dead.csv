@@ -1,0 +1,550 @@
+PassengerId,Survived,Passenger Class,Sex,Siblings,Parent/Child,Fare,Age,Hometown,Boarded,Destination
+1,0.0,3,male,1,0,7.25,22.0,"Bridgerule, Devon, England",Southampton,"Qu'Appelle Valley, Saskatchewan, Canada"
+5,0.0,3,male,0,0,8.05,35.0,"Birmingham, West Midlands, England",Southampton,New York City
+6,0.0,3,male,0,0,8.4583,22.0,"Cork, Ireland",Queenstown,New York City
+7,0.0,1,male,0,0,51.8625,54.0,"Dorchester, Massachusetts, US",Southampton,"Dorchester, Massachusetts, US"
+8,0.0,3,male,3,1,21.075,2.0,"Bjuv, Skåne, Sweden",Southampton,"Chicago, Illinois, US"
+13,0.0,3,male,0,0,8.05,19.0,"St Austell, Cornwall, England",Southampton,New York City
+14,0.0,3,male,1,5,31.275,39.0,"Kisa, Östergötland, Sweden",Southampton,"Winnipeg, Manitoba, Canada"
+15,0.0,3,female,0,0,7.8542,14.0,"Salmunds, Gotland, Sweden",Southampton,"Los Angeles, US"
+17,0.0,3,male,4,1,29.125,2.0,"Athlone, Westmeath, Ireland",Queenstown,"Spokane, Washington, US"
+19,0.0,3,female,1,0,18.0,31.0,"Pittem, Belgium",Southampton,"Fremont, Ohio, US"
+21,0.0,2,male,0,0,26.0,35.0,"Liverpool, Merseyside, England, UK",Southampton,"Montreal, Quebec, Canada"
+25,0.0,3,female,3,1,21.075,8.0,"Bjuv, Skåne, Sweden",Southampton,"Chicago, Illinois, US"
+27,0.0,3,male,0,0,7.225,25.0,"Hadath, Lebanon",Cherbourg,New York City
+28,0.0,1,male,3,2,263.0,19.0,"Winnipeg, Manitoba, Canada",Southampton,"Winnipeg, Manitoba, Canada"
+30,0.0,3,male,0,0,7.8958,23.0,"Unknown, Bulgaria",Southampton,"Chicago, Illinois, US"
+31,0.0,1,male,0,0,27.7208,40.0,"Mexico City, Mexico",Cherbourg,"Mexico City, Mexico"
+34,0.0,2,male,0,0,10.5,66.0,"Guernsey, Channel Islands",Southampton,"Edgewood, Rhode Island, US"
+35,0.0,1,male,1,0,82.1708,28.0,"New York, New York, US",Cherbourg,"New York, New York, US"
+36,0.0,1,male,1,0,52.0,42.0,"New York, New York, US",Southampton,"New York, New York, US"
+38,0.0,3,male,0,0,8.05,21.0,"Penwithick, Cornwall, England",Southampton,New York City
+39,0.0,3,female,2,0,18.0,18.0,"Zwevezele, Belgium",Southampton,"Fremont, Ohio, US"
+41,0.0,3,female,1,0,9.475,40.0,"Göteborg, Västergötland, Sweden",Southampton,"Akeley, Minnesota, US"
+42,0.0,2,female,1,0,21.0,27.0,"Plymouth, Devon, England",Southampton,"Salt Lake City, Utah, US"
+43,0.0,3,male,0,0,7.8958,,"Vetren, Bulgaria",Cherbourg,"Madison, Wisconsin, US"
+46,0.0,3,male,0,0,8.05,29.0,"Pontardawe, West Glamorgan, Wales",Southampton,New York City
+47,0.0,3,male,1,0,15.5,20.0,"Ballymahon, Longford, Ireland",Queenstown,New York City
+49,0.0,3,male,2,0,21.6792,16.0,"Hardîne, Lebanon",Cherbourg,"Wilkes-Barre, Pennsylvania, US"
+50,0.0,3,female,1,0,17.8,18.0,"Altdorf, Uri, Switzerland",Southampton,"New Glarus, Wisconsin, US"
+51,0.0,3,male,4,1,39.6875,7.0,"Ylihärmä, South Ostrobothnia, Finland",Southampton,"Coal Center, Pennsylvania, US"
+52,0.0,3,male,0,0,7.8,21.0,"Newton Abbot, Devon, England",Southampton,"Buffalo, New York, US"
+55,0.0,1,male,0,1,61.9792,64.0,"Providence, Rhode Island, US",Southampton,"Providence, Rhode Island, US"
+58,0.0,3,male,0,0,7.2292,20.0,"Kafr Mishki, Lebanon",Cherbourg,"Ottawa, Ontario, Canada"
+60,0.0,3,male,5,2,46.9,13.0,"Fulham, England",Southampton,"Niagara Falls, New York, US"
+61,0.0,3,male,0,0,7.2292,22.0,"Kiğı, Turkey",Cherbourg,"Brantford, Ontario, Canada"
+63,0.0,1,male,1,0,83.475,45.0,"New York, New York, US",Southampton,"New York, New York, US"
+64,0.0,3,male,3,2,27.9,5.0,"Hällekis, Västergötland, Sweden",Southampton,"Iron Mountain, Michigan, US"
+65,0.0,1,male,0,0,27.7208,54.0,"Cincinnati, Ohio, US",Cherbourg,"Gallipolis, Ohio, US"
+68,0.0,3,male,0,0,8.1583,19.0,"Bristol, Avon, England",Southampton,"Cleveland, Ohio, US"
+70,0.0,3,male,2,0,8.6625,26.0,"Zürich, Switzerland",Southampton,"Milwaukee, Wisconsin, US"
+71,0.0,2,male,0,0,10.5,32.0,"St. Ives, Cornwall, England",Southampton,"Houghton, Michigan, US"
+72,0.0,3,female,5,2,46.9,16.0,"Fulham, England",Southampton,"Niagara Falls, New York, US"
+73,0.0,2,male,0,0,73.5,21.0,"Fritham, Hampshire, England",Southampton,"Manitoba, Canada"
+74,0.0,3,male,1,0,14.4542,26.0,"Agios Sostis, Peloponnese, Greece",Cherbourg,New York City
+76,0.0,3,male,0,0,7.65,25.0,"Bergen, Norway",Southampton,"Minneapolis, Minnesota, US"
+77,0.0,3,male,0,0,7.8958,23.0,"Debnevo, Troyan, Bulgaria",Southampton,"Chicago, Illinois, US"
+78,0.0,3,male,0,0,8.05,28.0,"London, England",Southampton,New York City
+81,0.0,3,male,0,0,9.0,22.0,"Ruiselede, West Flanders, Belgium",Southampton,"Stanton, Ohio, US"
+84,0.0,1,male,0,0,47.1,31.0,"Montevideo, Uruguay",Southampton,"Montevideo, Uruguay"
+87,0.0,3,male,1,3,34.375,16.0,"Rotherfield, East Sussex, England",Southampton,"Essex County, New Jersey, US"
+88,0.0,3,male,0,0,8.05,20.0,"London, England",Southampton,New York City
+90,0.0,3,male,0,0,8.05,24.0,"Milan[83], Italy",Southampton,New York City
+91,0.0,3,male,0,0,8.05,29.0,"London, England",Southampton,New York City
+92,0.0,3,male,0,0,7.8542,20.0,"Kalfsnäs, Småland, Sweden",Southampton,"Chicago, Illinois, US"
+93,0.0,1,male,1,0,61.175,46.0,"Amenia, North Dakota, US",Southampton,"Amenia, North Dakota, US"
+94,0.0,3,male,1,2,20.575,25.0,"Bartley Farm, Hampshire, England",Southampton,"Wichita, Kansas, US"
+95,0.0,3,male,0,0,7.25,59.0,"London, England",Southampton,"Merrill, Wisconsin, US"
+96,0.0,3,male,0,0,8.05,22.0,"Heron's Ghyll, East Sussex, England",Southampton,"New York, US"
+97,0.0,1,male,0,0,34.6542,71.0,"New York, New York, US",Cherbourg,"New York, New York, US"
+100,0.0,2,male,1,0,26.0,34.0,"Vitebsk, Russian Empire",Southampton,"Bronx, New York, US"
+101,0.0,3,female,0,0,7.8958,28.0,"Vagovina, Croatia",Southampton,"Harrisburg, Pennsylvania, US"
+102,0.0,3,male,0,0,7.8958,29.0,"Belish, Troyan, Bulgaria",Southampton,"Chicago, Illinois, US"
+103,0.0,1,male,0,1,77.2875,21.0,"Brunswick, Maine, US",Southampton,"Brunswick, Maine, US"
+104,0.0,3,male,0,0,8.6542,33.0,"Bäckebo, Småland, Sweden",Southampton,"Cheyenne, North Dakota, US"
+105,0.0,3,male,2,0,7.925,37.0,"Ruotsinpyhtää, Finland",Southampton,New York City
+106,0.0,3,male,0,0,7.8958,28.0,"Gumostnik, Lovec, Bulgaria",Southampton,"Chicago, Illinois, US"
+109,0.0,3,male,0,0,7.8958,38.0,"Bosanska Krupa, Bosnia",Southampton,"Harrisburg, Pennsylvania, US"
+111,0.0,1,male,0,0,52.0,46.0,"Worcester, Massachusetts, US",Southampton,"Worcester, Massachusetts, US"
+112,0.0,3,female,1,0,14.4542,16.0,"Unknown, Syria",Cherbourg,New York City
+113,0.0,3,male,0,0,8.05,22.0,"Cambridge, Cambridgeshire, England",Southampton,New York City
+114,0.0,3,female,1,0,9.825,20.0,"Paavola, Northern Ostrobothnia, Finland",Southampton,New York City
+115,0.0,3,female,0,0,14.4583,17.0,"Beirut, Lebanon",Cherbourg,New York City
+116,0.0,3,male,0,0,7.925,21.0,"Heinola, Finland",Southampton,New York City
+117,0.0,3,male,0,0,7.75,61.0,"Charleville, Cork, Ireland",Queenstown,New York City
+118,0.0,2,male,1,0,21.0,29.0,"Plymouth, Devon, England",Southampton,"Salt Lake City, Utah, US"
+119,0.0,1,male,0,1,247.5208,24.0,"Montreal, Quebec, Canada",Cherbourg,"Montreal, Quebec, Canada"
+120,0.0,3,female,4,2,31.275,2.0,"Kisa, Östergötland, Sweden",Southampton,"Winnipeg, Manitoba, Canada"
+121,0.0,2,male,2,0,73.5,20.0,"Fritham, Hampshire, England",Southampton,"The Pas, Manitoba, Canada"
+122,0.0,3,male,0,0,8.05,19.0,"Kingston upon Thames, London, England",Southampton,"Hoboken, New Jersey, US"
+123,0.0,2,male,1,0,30.0708,28.0,"Zahlé, Lebanon, Ottoman Empire[note 7]",Cherbourg,"Cleveland, Ohio, US"
+125,0.0,1,male,0,1,77.2875,54.0,"Brunswick, Maine, US",Southampton,"Brunswick, Maine, US"
+127,0.0,3,male,0,0,7.75,20.0,"Craghbrien, Clare, Ireland",Queenstown,New York City
+130,0.0,3,male,0,0,6.975,45.0,"Effington Rut, South Dakota, US",Southampton,"Effington Rut, South Dakota, US"
+131,0.0,3,male,0,0,7.8958,33.0,"Hrastelnica, Croatia",Cherbourg,New York City
+132,0.0,3,male,0,0,7.05,20.0,"Funchal, Madeira Islands, Portugal",Southampton,New York City
+133,0.0,3,female,1,0,14.5,47.0,"St Austell, Cornwall, England",Southampton,"Yonkers, New York, US"
+135,0.0,2,male,0,0,13.0,25.0,"Porthallow, Cornwall, England",Southampton,"Houghton, Michigan, US"
+136,0.0,2,male,0,0,15.0458,23.0,"Paris, France",Cherbourg,"Montreal, Quebec, Canada"
+138,0.0,1,male,1,0,53.1,37.0,"Scituate, Massachusetts, US",Southampton,"Scituate, Massachusetts, US"
+139,0.0,3,male,0,0,9.2167,16.0,"Hedesunda, Gävleborg, Sweden",Southampton,"Mitchell, South Dakota, US"
+140,0.0,1,male,0,0,79.2,24.0,"Paris, France",Cherbourg,"New York, New York, US"
+141,0.0,3,female,0,2,15.2458,40.0,"Unknown, Lebanon",Cherbourg,"Kent, British Columbia, Canada"
+144,0.0,3,male,0,0,6.75,19.0,"Glanmire, Cork, Ireland",Queenstown,"Charlestown, US"
+145,0.0,2,male,0,0,11.5,17.0,"San Ambrosio, Córdoba, Argentina",Southampton,"Trenton, New Jersey, US"
+146,0.0,2,male,1,1,36.75,19.0,"St. Ives, Cornwall, England",Southampton,"Houghton, Michigan, US"
+148,0.0,3,female,2,2,34.375,7.0,"Rotherfield, East Sussex, England",Southampton,"Essex County, New Jersey, US"
+149,0.0,2,male,0,2,26.0,32.0,"Nice, France",Southampton,New York City
+150,0.0,2,male,0,0,13.0,42.0,"London, England",Southampton,"Jacksonville, Florida, US"
+151,0.0,2,male,0,0,12.525,51.0,"Jacksonville, Florida, US",Southampton,"Jacksonville, Florida, US"
+153,0.0,3,male,0,0,8.05,48.0,"Bournemouth, Dorset, England",Southampton,"Washington, DC, US"
+154,0.0,3,male,0,2,14.5,35.0,"London, England",Southampton,"North Wales, Pennsylvania, US"
+155,0.0,3,male,0,0,7.3125,27.0,"Sunnhordland, Norway",Southampton,"Broderick, Canada"
+156,0.0,1,male,0,1,61.3792,51.0,"Geneva, Switzerland",Cherbourg,"Radnor, Pennsylvania, US"
+158,0.0,3,male,0,0,8.05,30.0,"London, England",Southampton,New York City
+159,0.0,3,male,0,0,8.6625,37.0,"Pisac, Croatia",Southampton,New York City
+160,0.0,3,male,8,2,69.55,4.0,"Peterborough, Cambridgeshire, England",Southampton,"Jacksonville, Florida, US"
+161,0.0,3,male,0,1,16.1,44.0,"Bournemouth, Dorset, England",Southampton,"Newark, New Jersey, US"
+163,0.0,3,male,0,0,7.775,26.0,"Fridhemsberg, Halland, Sweden",Southampton,"Monee, Illinois, US"
+164,0.0,3,male,0,0,8.6625,17.0,"Brezik, Croatia",Southampton,"Sault Ste. Marie, Michigan, US"
+165,0.0,3,male,4,1,39.6875,1.0,"Ylihärmä, South Ostrobothnia, Finland",Southampton,"Coal Center, Pennsylvania, US"
+168,0.0,3,female,1,4,27.9,43.0,"Hällekis, Västergötland, Sweden",Southampton,"Iron Mountain, Michigan, US"
+169,0.0,1,male,0,0,25.925,60.0,"New York, New York, US",Cherbourg,"New York, New York, US"
+170,0.0,3,male,0,0,56.4958,24.0,"Hong Kong, China",Southampton,New York City
+171,0.0,1,male,0,0,33.5,61.0,"Brooklyn, New York, US",Belfast,"Brooklyn, New York, US"
+172,0.0,3,male,4,1,29.125,4.0,"Athlone, Westmeath, Ireland",Queenstown,"Spokane, Washington, US"
+174,0.0,3,male,0,0,7.925,21.0,"Mountain Home, Idaho, US",Southampton,"Mountain Home, Idaho, US"
+175,0.0,1,male,0,0,30.6958,56.0,"Paris, France",Cherbourg,"Long Island, New York, US"
+176,0.0,3,male,1,1,7.8542,18.0,"Grimshut, Småland, Sweden",Southampton,New York City
+177,0.0,3,male,3,1,25.4667,5.0,"Liévin, Pas-de-Calais, France",Southampton,"Mystic, Iowa, US"
+178,0.0,1,female,0,0,28.7125,50.0,"Chicago, Illinois, US",Cherbourg,"Chicago, Illinois, US"
+179,0.0,2,male,0,0,13.0,30.0,"Auburn, New York, US",Southampton,"Auburn, New York, US"
+180,0.0,3,male,0,0,0.0,36.0,"New York City, New York, US",Southampton,New York City
+181,0.0,3,female,8,2,69.55,7.0,"Peterborough, Cambridgeshire, England",Southampton,"Jacksonville, Florida, US"
+182,0.0,2,male,0,0,15.05,39.0,"Paris, France",Cherbourg,"New York, New York, US"
+183,0.0,3,male,4,2,31.3875,9.0,"Alseda, Småland, Sweden",Southampton,"Worcester, Massachusetts, US"
+186,0.0,1,male,0,0,50.0,38.0,"Seattle, Washington, US",Southampton,"Seattle, Washington, US"
+189,0.0,3,male,1,1,15.5,42.0,"Carrowskehine, Mayo, Ireland",Queenstown,"Chicago, Illinois, US"
+190,0.0,3,male,0,0,7.8958,36.0,"Bratina, Croatia",Southampton,"Youngstown, Ohio, US"
+192,0.0,2,male,0,0,13.0,19.0,"St. Ives, Cornwall, England",Southampton,"Houghton, Michigan, US"
+197,0.0,3,male,0,0,7.75,26.0,"Ballywilliam, Wexford, Ireland",Queenstown,"Chicago, Illinois, US"
+198,0.0,3,male,0,1,8.4042,42.0,"Trondheim, Norway",Southampton,"Brooklyn, New York, US"
+200,0.0,2,female,0,0,13.0,24.0,"Paris, France",Southampton,"Montreal, Quebec, Canada"
+201,0.0,3,male,0,0,9.5,28.0,"Westrozebeke, Belgium",Southampton,New York City
+202,0.0,3,male,8,2,69.55,16.0,"Peterborough, Cambridgeshire, England",Southampton,"Jacksonville, Florida, US"
+203,0.0,3,male,0,0,6.4958,34.0,"Munsala, Finland",Southampton,"Vancouver, British Columbia, Canada"
+204,0.0,3,male,0,0,7.225,45.0,"Hardîne, Lebanon",Cherbourg,"Wilkes-Barre, Pennsylvania, US"
+206,0.0,3,female,0,1,10.4625,2.0,"Indiana Harbor, Indiana, US",Southampton,"Indiana Harbor, Indiana, US"
+207,0.0,3,male,1,0,15.85,32.0,"Kotka, Finland",Southampton,New York City
+211,0.0,3,male,0,0,7.05,24.0,"Buenos Aires, Argentina",Southampton,New York City
+213,0.0,3,male,0,0,7.25,22.0,"Holsworthy, Devon, England",Southampton,"Saskatoon, Saskatchewan, Canada"
+214,0.0,2,male,0,0,13.0,30.0,"Kølsen, Vorde Sogn, Denmark",Southampton,"San Francisco, California, US"
+215,0.0,3,male,1,0,7.75,22.0,"Aughnacliffe, Longford, Ireland",Queenstown,"Jersey City, New Jersey, US"
+218,0.0,2,male,1,0,27.0,40.0,"London, England",Southampton,"Montreal, Quebec, Canada"
+220,0.0,2,male,0,0,10.5,30.0,"London, England",Southampton,New York City
+222,0.0,2,male,0,0,13.0,29.0,"Lake Arthur, New Mexico, US",Southampton,"Lake Arthur, New Mexico, US"
+223,0.0,3,male,0,0,8.05,40.0,"Dorking, Surrey, England",Southampton,"Lead, South Dakota, US"
+224,0.0,3,male,0,0,7.8958,22.0,"Unknown, Bulgaria",Southampton,"Coon Rapids, Iowa, US"
+226,0.0,3,male,0,0,9.35,22.0,"Firtby, Finland",Southampton,New York City
+228,0.0,3,male,0,0,7.25,20.0,"Northlew, Devon, England",Southampton,New York City
+229,0.0,2,male,0,0,13.0,18.0,"Oslo, Norway",Southampton,"Bayonne, New Jersey, US"
+230,0.0,3,female,3,1,25.4667,12.0,"Liévin, Pas-de-Calais, France",Southampton,"Mystic, Iowa, US"
+232,0.0,3,male,0,0,7.775,29.0,"Nyköping, Södermanland, Sweden",Southampton,"Hartford, Connecticut, US"
+233,0.0,2,male,0,0,13.5,30.0,"Hjo, Västergötland, Sweden",Southampton,"Sault Ste Marie, Michigan, US"
+235,0.0,2,male,0,0,10.5,25.0,"London, England",Southampton,New York City
+236,0.0,3,female,0,0,7.55,21.0,"Thornton Heath, London, England",Southampton,"New London, Connecticut, US"
+237,0.0,2,male,1,0,26.0,44.0,"Porthoustock, Cornwall, England",Southampton,"Sacramento, California, US"
+239,0.0,2,male,0,0,10.5,19.0,"Gunnislake, Cornwall, England",Southampton,"Butte, Montana, US"
+240,0.0,2,male,0,0,12.275,33.0,"Philadelphia, Pennsylvania, US",Southampton,"Philadelphia, Pennsylvania, US"
+241,0.0,3,female,1,0,14.4542,19.0,"Unknown, Syria",Cherbourg,New York City
+243,0.0,2,male,0,0,10.5,29.0,"London, England",Southampton,"Detroit, Michigan, US"
+244,0.0,3,male,0,0,7.125,22.0,"Kauhajoki, Finland",Southampton,"Sudbury, Ontario, Canada"
+245,0.0,3,male,0,0,7.225,30.0,"Ottawa, Ontario, Canada",Cherbourg,"Ottawa, Ontario, Canada"
+246,0.0,1,male,2,0,90.0,44.0,"Fond du Lac, Wisconsin, US",Southampton,"Fond du Lac, Wisconsin, US"
+247,0.0,3,female,0,0,7.775,25.0,"Stockholm, Sweden",Southampton,"Saranac Lake, New York, US"
+250,0.0,2,male,1,0,26.0,54.0,"London, England, UK",Southampton,New York City
+251,0.0,3,male,0,0,7.25,19.0,"Penarth, Glamorgan, Wales",Southampton,New York City
+252,0.0,3,female,1,1,10.4625,29.0,"Indiana Harbor, Indiana, US",Southampton,"Indiana Harbor, Indiana, US"
+253,0.0,1,male,0,0,26.55,62.0,"London, England, UK",Southampton,"New York, New York, US"
+254,0.0,3,male,1,0,16.1,30.0,"Scranton, Pennsylvania, US",Southampton,"Scranton, Pennsylvania, US"
+255,0.0,3,female,0,2,20.2125,41.0,"Suistamo, Finland",Southampton,"Astoria, Oregon, US"
+261,0.0,3,male,0,0,7.75,26.0,"Caltra, Galway, Ireland",Queenstown,"Hammond, Indiana, US"
+263,0.0,1,male,1,1,79.65,52.0,"New York, New York, US",Southampton,"New York, New York, US"
+264,0.0,1,male,0,0,0.0,45.0,"Wallasey, Merseyside, England, UK",Southampton,"New York, New York, US"
+265,0.0,3,female,0,0,7.75,23.0,"Clonown, Roscommon, Ireland",Queenstown,"Boston, Massachusetts, US"
+266,0.0,2,male,0,0,10.5,36.0,"Slinfold, West Sussex, England",Southampton,New York City
+267,0.0,3,male,4,1,39.6875,16.0,"Ylihärmä, South Ostrobothnia, Finland",Southampton,"Coal Center, Pennsylvania, US"
+271,0.0,1,male,0,0,31.0,28.0,"Bryn Mawr, Pennsylvania, US",Southampton,"Bryn Mawr, Pennsylvania, US"
+274,0.0,1,male,0,1,29.7,36.0,"Brooklyn, New York, US",Cherbourg,"Brooklyn, New York, US"
+277,0.0,3,female,0,0,7.75,45.0,"Stockholm, Sweden",Southampton,"Stratford, Connecticut, US"
+278,0.0,2,male,0,0,0.0,18.0,"Belfast, Ireland",Belfast,New York City
+279,0.0,3,male,4,1,29.125,7.0,"Athlone, Westmeath, Ireland",Queenstown,"Spokane, Washington, US"
+281,0.0,3,male,0,0,7.75,65.0,"Bunmahon, Waterford, Ireland",Queenstown,"Morris Plains, New Jersey, US"
+282,0.0,3,male,0,0,7.8542,28.0,"Eslöv, Skåne, Sweden",Southampton,New York City
+283,0.0,3,male,0,0,9.5,16.0,"Heldergem, Haaltert, East Flanders, Belgium",Southampton,"Gladstone, Michigan, US"
+285,0.0,1,male,0,0,26.0,57.0,"Streatham, London, England, UK",Southampton,"New York, New York, US"
+286,0.0,3,male,0,0,8.6625,33.0,"Galdovo, Croatia",Cherbourg,New York City
+288,0.0,3,male,0,0,7.8958,22.0,"Gumostnik, Lovech, Bulgaria",Southampton,"Chicago, Illinois, US"
+293,0.0,2,male,0,0,12.875,36.0,"Montreal, Quebec, Canada",Cherbourg,"Montreal, Quebec, Canada"
+294,0.0,3,female,0,0,8.85,24.0,"Altdorf, Uri, Switzerland",Southampton,"Chicago, Illinois, US"
+295,0.0,3,male,0,0,7.8958,24.0,"Unknown, Bulgaria",Southampton,"Coon Rapids, Iowa, US"
+296,0.0,1,male,0,0,27.7208,31.0,"Chicago, Illinois, US",Cherbourg,"Chicago, Illinois, US"
+297,0.0,3,male,0,0,7.2292,35.0,"Kfar Mechi, Syria",Cherbourg,"Ottawa, Ontario, Canada"
+298,0.0,1,female,1,2,151.55,2.0,"Montreal, Quebec, Canada",Southampton,"Montreal, Quebec, Canada"
+303,0.0,3,male,0,0,0.0,19.0,"Hawthorne, New Jersey, US",Southampton,New York City
+305,0.0,3,male,0,0,8.05,28.0,"Guernsey, Channel Islands, Channel Islands",Southampton,New York City
+309,0.0,2,male,1,0,24.0,30.0,Russia,Cherbourg,"New York, New York, US"
+313,0.0,2,female,1,1,26.0,26.0,"Minneapolis, Minnesota, US",Southampton,"Minneapolis, Minnesota, US"
+314,0.0,3,male,0,0,7.8958,28.0,"Vagovina, Croatia",Southampton,"Harrisburg, Pennsylvania, US"
+315,0.0,2,male,1,1,26.25,47.0,"Ilford, Essex, England",Southampton,"Winnipeg, Manitoba, Canada"
+318,0.0,2,male,0,0,14.0,54.0,"Frankfort, Kentucky, US",Southampton,"Frankfort, Kentucky, US"
+321,0.0,3,male,0,0,7.25,22.0,"Week St Mary, Cornwall, England",Southampton,"Saskatoon, Saskatchewan, Canada"
+322,0.0,3,male,0,0,7.8958,27.0,"Unknown, Bulgaria",Southampton,"Chicago, Illinois, US"
+325,0.0,3,male,8,2,69.55,19.0,"Peterborough, Cambridgeshire, England",Southampton,"Jacksonville, Florida, US"
+327,0.0,3,male,0,0,6.2375,61.0,"Øyer, Norway",Southampton,"Grand Forks, North Dakota, US"
+332,0.0,1,male,0,0,28.5,40.0,"Tolworth, London, England, UK",Southampton,"Toronto, Ontario, Canada"
+333,0.0,1,male,0,1,153.4625,38.0,"Winnipeg, Manitoba, Canada",Southampton,"Winnipeg, Manitoba, Canada"
+334,0.0,3,male,2,0,18.0,15.0,"Zwevezele, Belgium",Southampton,"Fremont, Ohio, US"
+336,0.0,3,male,0,0,7.8958,30.0,"Unknown, Bulgaria",Southampton,"Coon Rapids, Iowa, US"
+337,0.0,1,male,1,0,66.6,29.0,"Isleworth, London, England, UK",Southampton,"New York, New York, US"
+340,0.0,1,male,0,0,35.5,45.0,"Trenton, New Jersey, US",Southampton,"Trenton, New Jersey, US"
+343,0.0,2,male,0,0,13.0,27.0,"Helsinki, Finland, Russian Empire[note 6]",Southampton,"Ashtabula, Ohio, US"
+344,0.0,2,male,0,0,13.0,25.0,"Liverpool, Merseyside, England",Southampton,"Minatitlán, Veracruz, Mexico"
+345,0.0,2,male,0,0,13.0,38.0,"Rochester, New York, US",Southampton,"Rochester, New York, US"
+350,0.0,3,male,0,0,8.6625,42.0,"Ostrovica, Croatia",Southampton,"Red Lodge, Montana, US"
+351,0.0,3,male,0,0,9.225,23.0,"Örsjö, Kalmar, Sweden",Southampton,"Peoria, Illinois, US"
+352,0.0,1,male,0,0,35.0,43.0,"London, England, UK",Southampton,"Newark, New Jersey, US"
+353,0.0,3,male,1,1,7.2292,17.0,"Kafr Mishki, Lebanon",Cherbourg,"Ottawa, Ontario, Canada"
+354,0.0,3,male,1,0,17.8,25.0,"Altdorf, Uri, Switzerland",Southampton,"New Glarus, Wisconsin, US"
+355,0.0,3,male,0,0,7.225,25.0,"Tebnin, Lebanon",Cherbourg,New York City
+356,0.0,3,male,0,0,9.5,28.0,"Haaltert, Belgium",Southampton,New York City
+358,0.0,2,female,0,0,13.0,38.0,"Janjgir-Champa, British India, UK[note 3]",Southampton,"Bally, Pennsylvania, US"
+361,0.0,3,male,1,4,27.9,40.0,"Hällekis, Västergötland, Sweden",Southampton,"Iron Mountain, Michigan, US"
+362,0.0,2,male,1,0,27.7208,29.0,"Montecarlo, Lucca, Tuscany, Italy",Cherbourg,"Chicago, Illinois, US"
+363,0.0,3,female,0,1,14.4542,45.0,"Kafr Mishki, Lebanon",Cherbourg,"Ottawa, Ontario, Canada"
+364,0.0,3,male,0,0,7.05,35.0,"Buenos Aires, Argentina",Southampton,New York City
+365,0.0,3,male,1,0,15.5,27.0,"Pallasgreen, Limerick, Ireland",Queenstown,"Chicago, Illinois, US"
+366,0.0,3,male,0,0,7.25,30.0,"Asarum, Småland, Sweden",Southampton,"Brooklyn, New York, US"
+372,0.0,3,male,1,0,6.4958,18.0,"Vaasa, Finland",Southampton,"Montreal, Quebec, Canada"
+373,0.0,3,male,0,0,8.05,18.0,"Fillingham, Lincolnshire, England",Southampton,"Russell, US"
+374,0.0,1,male,0,0,135.6333,22.0,"New York, New York, US",Cherbourg,"New York, New York, US"
+375,0.0,3,female,3,1,21.075,3.0,"Bjuv, Skåne, Sweden",Southampton,"Chicago, Illinois, US"
+378,0.0,1,male,0,2,211.5,27.0,"Philadelphia, Pennsylvania, US",Southampton,"Philadelphia, Pennsylvania, US"
+379,0.0,3,male,0,0,4.0125,20.0,"Zgharta, Lebanon",Cherbourg,"Waterbury, Connecticut, US"
+380,0.0,3,male,0,0,7.775,19.0,"Myren, Synnerby, Västergötland, Sweden",Southampton,"Aberdeen, South Dakota, US"
+383,0.0,3,male,0,0,7.925,32.0,"Pielavesi, Finland",Southampton,New York City
+385,0.0,3,male,0,0,7.8958,27.0,"Unknown, Bulgaria",Southampton,"Tulsa, Oklahoma, US"
+386,0.0,2,male,0,0,73.5,21.0,"Lyndhurst, Hampshire, England",Southampton,"Eden, Manitoba, Canada"
+387,0.0,3,male,5,2,46.9,1.0,"Fulham, England",Southampton,"Niagara Falls, New York, US"
+389,0.0,3,male,0,0,7.7292,20.0,"Mohill, Leitrim, Ireland",Queenstown,"Lakewood Township, New Jersey, US"
+393,0.0,3,male,2,0,7.925,28.0,"Ruotsinpyhtää, Finland",Southampton,New York City
+396,0.0,3,male,0,0,7.7958,22.0,"Frostensmåla, Småland, Sweden",Southampton,"St. Paul, Minnesota, US"
+397,0.0,3,female,0,0,7.8542,31.0,"Södra Brantevik, Sweden",Southampton,"St. Paul, Minnesota, US"
+398,0.0,2,male,0,0,26.0,46.0,"Guernsey, Channel Islands",Southampton,"Rochester, New York, US"
+399,0.0,2,male,0,0,10.5,23.0,"Hamilton, Ontario, Canada",Southampton,"Hamilton, Ontario, Canada"
+402,0.0,3,male,0,0,8.05,26.0,"Bournemouth, Dorset, England",Southampton,"La Porte City, Iowa, US"
+403,0.0,3,female,1,0,9.825,21.0,"Paavola, Northern Ostrobothnia, Finland",Southampton,New York City
+404,0.0,3,male,1,0,15.85,28.0,"Helsinki, Finland",Southampton,"Monessen, Pennsylvania, US"
+405,0.0,3,female,0,0,8.6625,20.0,"Konjsko Brdo, Croatia",Southampton,"Chicago, Illinois, US"
+406,0.0,2,male,1,0,21.0,33.0,"Harrowbarrow, Cornwall, England",Southampton,"Clear Creek, Colorado, US"
+407,0.0,3,male,0,0,7.75,51.0,"Algutsrum, Kalmar, Sweden",Southampton,New York City
+409,0.0,3,male,0,0,7.775,21.0,"Bremnes, Norway",Southampton,New York City
+410,0.0,3,female,3,1,25.4667,3.0,"Liévin, Pas-de-Calais, France",Southampton,"Mystic, Iowa, US"
+411,0.0,3,male,0,0,7.8958,42.0,"Unknown, Bulgaria",Southampton,"Chicago, Illinois, US"
+412,0.0,3,male,0,0,6.8583,27.0,"Ballysadare, Sligo, Ireland",Queenstown,"Boston, Massachusetts, US"
+414,0.0,2,male,0,0,0.0,21.0,"Belfast, Ireland",Belfast,New York City
+416,0.0,3,female,0,0,8.05,31.0,"Penarth, Glamorgan, Wales",Southampton,New York City
+419,0.0,2,male,0,0,13.0,30.0,"St Austell, Cornwall, England",Southampton,"La Salle, Illinois, US"
+420,0.0,3,female,0,2,24.15,10.0,"Kerksken, Belgium",Southampton,"Detroit, Michigan, US"
+421,0.0,3,male,0,0,7.8958,,"Unknown, Bulgaria",Cherbourg,"Butte, Montana, US"
+422,0.0,3,male,0,0,7.7333,28.0,"Ballinalee, Longford, Ireland",Queenstown,New York City
+423,0.0,3,male,0,0,7.875,29.0,"Todtmoos, Germany",Southampton,"Saskatoon, Saskatchewan, Canada"
+424,0.0,3,female,1,1,14.4,28.0,"Göteborg, Västergötland, Sweden",Southampton,"Stanton, Iowa, US"
+425,0.0,3,male,1,1,20.2125,18.0,"Suistamo, Finland",Southampton,"Astoria, Oregon, US"
+426,0.0,3,male,0,0,7.25,54.0,"London, England",Southampton,"Quebec City, Quebec, Canada"
+429,0.0,3,male,0,0,7.75,28.0,"Cuilkillew, Mayo, Ireland",Queenstown,New York City
+434,0.0,3,male,0,0,7.125,17.0,"Kauhajoki, Finland",Southampton,"Sudbury, Ontario, Canada"
+435,0.0,1,male,1,0,55.9,50.0,"Duluth, Minnesota, US",Cherbourg,"Duluth, Minnesota, US"
+437,0.0,3,female,2,2,34.375,20.0,"Rotherfield, East Sussex, England",Southampton,"Essex County, New Jersey, US"
+439,0.0,1,male,1,4,263.0,64.0,"Winnipeg, Manitoba, Canada",Southampton,"Winnipeg, Manitoba, Canada"
+440,0.0,2,male,0,0,10.5,31.0,"Trollhättan, Västergötland, Sweden",Southampton,"Arlington, Virginia, US"
+442,0.0,3,male,0,0,9.5,19.0,"Westrozebeke, Belgium",Southampton,"Detroit, Michigan, US"
+443,0.0,3,male,1,0,7.775,25.0,"Västermo, Södermanland, Sweden",Southampton,"Chicago, Illinois, US"
+451,0.0,2,male,1,2,27.75,36.0,"Bournemouth, Dorset, England",Southampton,"Gainesville, Florida, US"
+452,0.0,3,male,1,0,19.9667,28.0,"Skaare, Haugesund, Norway",Southampton,"Belmar, New Jersey, US"
+453,0.0,1,male,0,0,27.75,30.0,"New York, New York, US",Southampton,"New York, New York, US"
+455,0.0,3,male,0,0,8.05,24.0,"London, England",Southampton,New York City
+457,0.0,1,male,0,0,26.55,65.0,"East Bridgewater, Massachusetts, US",Cherbourg,"East Bridgewater, Massachusetts, US"
+460,0.0,3,male,0,0,7.75,16.0,"Boherbue, Cork, Ireland",Queenstown,New York City
+462,0.0,3,male,0,0,8.05,34.0,"Petworth, West Sussex, England",Southampton,New York City
+463,0.0,1,male,0,0,38.5,47.0,"St Annes-on-Sea, Lancashire, England, UK",Southampton,"Mexico City, Mexico"
+464,0.0,2,male,0,0,13.0,48.0,"Odense, Denmark",Southampton,"Oregon, Wisconsin, US"
+465,0.0,3,male,0,0,8.05,34.0,"London, England",Southampton,New York City
+466,0.0,3,male,0,0,7.05,37.0,"Calheta, Madeira, Portugal",Southampton,New York City
+467,0.0,2,male,0,0,0.0,21.0,"Belfast, Ireland",Belfast,New York City
+468,0.0,1,male,0,0,26.55,56.0,"Kildale, North Yorkshire, England, UK",Southampton,"New York, New York, US"
+469,0.0,3,male,0,0,7.725,22.0,"Rathkeale, Limerick, Ireland",Queenstown,New York City
+471,0.0,3,male,0,0,7.25,39.0,"Rahway, New Jersey, US",Southampton,"Rahway, New Jersey, US"
+472,0.0,3,male,0,0,8.6625,38.0,"Široka Kula, Croatia",Southampton,"Chicago, Illinois, US"
+475,0.0,3,female,0,0,9.8375,22.0,"Turku, Finland",Southampton,New York City
+476,0.0,1,male,0,0,52.0,40.0,"Stoughton, Massachusetts, US",Southampton,"Stoughton, Massachusetts"
+477,0.0,2,male,1,0,21.0,33.0,"Elizabeth, New Jersey, US",Southampton,"Elizabeth, New Jersey, US"
+478,0.0,3,male,1,0,7.0458,29.0,"Bridgerule, Devon, England",Southampton,"Qu'Appelle Valley, Saskatchewan, Canada"
+479,0.0,3,male,0,0,7.5208,22.0,"Örebro, Sweden",Southampton,"Palmer, Massachusetts, US"
+481,0.0,3,male,5,2,46.9,10.0,"Fulham, England",Southampton,"Niagara Falls, New York, US"
+482,0.0,2,male,0,0,0.0,37.0,"Belfast, Northern Ireland, UK",Belfast,New York City
+483,0.0,3,male,0,0,8.05,50.0,"Sittingbourne, Kent, England",Southampton,"Cleveland, Ohio, US"
+486,0.0,3,female,3,1,25.4667,8.0,"Liévin, Pas-de-Calais, France",Southampton,"Mystic, Iowa, US"
+488,0.0,1,male,0,0,29.7,58.0,"Buffalo, New York, US",Cherbourg,"Buffalo, New York, US"
+489,0.0,3,male,0,0,8.05,30.0,"Greatfield, Cheltenham, England",Southampton,"Canastota, New York, US"
+491,0.0,3,male,1,0,19.9667,19.0,"Skaare, Haugesund, Norway",Southampton,"Belmar, New Jersey, US"
+492,0.0,3,male,0,0,7.25,21.0,"Cape Town, South Africa",Southampton,New York City
+493,0.0,1,male,0,0,30.5,55.0,"Montreal, Quebec, Canada",Southampton,"Montreal, Quebec, Canada"
+494,0.0,1,male,0,0,49.5042,71.0,"Buenos Aires, Argentina",Cherbourg,"New York, New York, US"
+495,0.0,3,male,0,0,8.05,21.0,"Swanage, England",Southampton,"Cleveland, Ohio, US"
+496,0.0,3,male,0,0,14.4583,26.0,"Hardîne, Lebanon",Cherbourg,"Youngstown, Ohio, US"
+498,0.0,3,male,0,0,15.1,55.0,"Bristol, Avon, England",Southampton,"Troy, New York, US"
+499,0.0,1,female,1,2,151.55,25.0,"Montreal, Quebec, Canada",Southampton,"Montreal, Quebec, Canada"
+500,0.0,3,male,0,0,7.7958,24.0,"Björkeberga, Skåne, Sweden",Southampton,New York City
+501,0.0,3,male,0,0,8.6625,17.0,"Brezik, Croatia",Southampton,"Sault Ste. Marie, Michigan, US"
+502,0.0,3,female,0,0,7.75,22.0,"Tonacrick, Clare, Ireland",Queenstown,"Philadelphia, Pennsylvania, US"
+503,0.0,3,female,0,0,7.6292,21.0,"Glenduff, Kerry, Ireland",Queenstown,New York City
+504,0.0,3,female,0,0,9.5875,37.0,"Helsinki, Finland",Southampton,New York City
+506,0.0,1,male,1,0,108.9,24.0,"Madrid, Spain",Cherbourg,"New York, New York, US"
+509,0.0,3,male,0,0,22.525,28.0,"Bergen, Norway",Southampton,New York City
+512,0.0,3,male,0,0,8.05,66.0,"San Francisco, US",Southampton,"San Francisco, US"
+515,0.0,3,male,0,0,7.4958,24.0,"Debnevo, Troyan, Bulgaria",Southampton,"Chicago, Illinois, US"
+516,0.0,1,male,0,0,34.0208,48.0,"East Orange, New Jersey, US",Southampton,"East Orange, New Jersey, US"
+518,0.0,3,male,0,0,24.15,29.0,"Askeaton, Limerick, Ireland",Queenstown,"Bronx, New York, US"
+520,0.0,3,male,0,0,7.8958,32.0,"Vagovina, Croatia",Southampton,"Harrisburg, Pennsylvania, US"
+522,0.0,3,male,0,0,7.8958,21.0,"Jesenice, Slovenia",Southampton,"St. Joseph, Minnesota, US"
+523,0.0,3,male,0,0,7.225,30.0,"Zgharta, Lebanon",Cherbourg,"Waterbury, Connecticut, US"
+525,0.0,3,male,0,0,7.2292,18.0,"Shana, Lebanon",Cherbourg,New York City
+526,0.0,3,male,0,0,7.75,25.0,"Killoe, Longford, Ireland",Queenstown,New York City
+528,0.0,1,male,0,0,221.7792,57.0,"New York, New York, US",Southampton,"New York, New York, US"
+529,0.0,3,male,0,0,7.925,39.0,"Aberdeen, Washington, US",Southampton,"Aberdeen, Washington, US"
+530,0.0,2,male,2,1,11.5,23.0,"Akron, Ohio, US",Southampton,"Akron, Ohio, US"
+532,0.0,3,male,0,0,7.2292,17.0,"Hardîne, Lebanon",Cherbourg,New York City
+533,0.0,3,male,1,1,7.2292,15.0,"Kafr Mishki, Lebanon",Cherbourg,"Ottawa, Ontario, Canada"
+535,0.0,3,female,0,0,8.6625,30.0,"Široka Kula, Croatia",Southampton,"Chicago, Illinois, US"
+537,0.0,1,male,0,0,26.55,46.0,"Washington, DC, US",Southampton,"Washington, DC, US"
+539,0.0,3,male,0,0,14.5,69.0,"Deal, Kent, England",Southampton,"Groesbeck, Texas, US"
+542,0.0,3,female,4,2,31.275,9.0,"Kisa, Östergötland, Sweden",Southampton,"Winnipeg, Manitoba, Canada"
+543,0.0,3,female,4,2,31.275,11.0,"Kisa, Östergötland, Sweden",Southampton,"Winnipeg, Manitoba, Canada"
+545,0.0,1,male,1,0,106.425,50.0,"Minneapolis, Minnesota, US",Cherbourg,"Minneapolis, Minnesota, US"
+546,0.0,1,male,0,0,26.0,64.0,"Shanklin, Isle of Wight, England, UK",Southampton,"New York, New York, US"
+549,0.0,3,male,1,1,20.525,33.0,"Strood, Kent, England",Southampton,"Detroit, Michigan, US"
+552,0.0,2,male,0,0,26.0,27.0,"London, England, UK",Southampton,New York City
+553,0.0,3,male,0,0,7.8292,21.0,"Drimoleague, Cork, Ireland",Queenstown,New York City
+556,0.0,1,male,0,0,26.55,62.0,"Halifax, Nova Scotia, Canada",Southampton,"Halifax, Nova Scotia, Canada"
+558,0.0,1,male,0,0,227.525,,,,
+561,0.0,3,male,0,0,7.75,30.0,"Rathfriland, Down, Ireland",Queenstown,"Gleichen, Alberta, Canada"
+562,0.0,3,male,0,0,7.8958,40.0,"Bosanska Krupa, Bosnia",Southampton,"Harrisburg, Pennsylvania, US"
+563,0.0,2,male,0,0,13.5,28.0,"Glasgow, Scotland",Southampton,"Houghton, Michigan, US"
+564,0.0,3,male,0,0,8.05,39.0,"Leigh, Kent, England",Southampton,New York City
+565,0.0,3,female,0,0,8.05,63.0,"Eastbourne, East Sussex, England",Southampton,New York City
+566,0.0,3,male,2,0,24.15,24.0,"West Bromwich, Staffordshire, England",Southampton,"Pontiac, Michigan, US"
+567,0.0,3,male,0,0,7.8958,19.0,"Gumostnik, Lovec, Bulgaria",Southampton,"Chicago, Illinois, US"
+568,0.0,3,female,0,4,21.075,29.0,"Bjuv, Skåne, Sweden",Southampton,"Chicago, Illinois, US"
+569,0.0,3,male,0,0,7.2292,28.0,"Beirut, Lebanon",Cherbourg,"Youngstown, Ohio, US"
+575,0.0,3,male,0,0,8.05,16.0,"Strood, Kent, England",Southampton,"Detroit, Michigan, US"
+576,0.0,3,male,0,0,14.5,19.0,"Wollaston, Northamptonshire, England",Southampton,"Kitchener, Ontario, Canada"
+579,0.0,3,female,1,0,14.4583,18.0,"Kfar Mechi, Syria",Cherbourg,"Ottawa, Ontario, Canada"
+583,0.0,2,male,0,0,26.0,55.0,"Rochester, New York, US",Southampton,"Rochester, New York, US"
+584,0.0,1,male,0,0,40.125,36.0,"Winnipeg, Manitoba, Canada",Southampton,"Winnipeg, Manitoba, Canada"
+585,0.0,3,male,0,0,8.7125,16.0,"Unknown, Unknown",Cherbourg,New York City
+587,0.0,2,male,0,0,15.0,47.0,"Stoneygate, Leicestershire, England",Southampton,New York City
+589,0.0,3,male,0,0,8.05,22.0,"Abercynon, Glamorgan, Wales",Southampton,"Chicago, Illinois, US"
+590,0.0,3,male,0,0,8.05,22.0,"London, England",Southampton,New York City
+591,0.0,3,male,0,0,7.125,35.0,"Kyyny, Finland",Southampton,"Sudbury, Ontario, Canada"
+593,0.0,3,male,0,0,7.25,47.0,"Taunton, Somerset, England",Southampton,"Gurnee, Illinois, US"
+594,0.0,3,female,0,2,7.75,40.0,"Carrowskehine, Mayo, Ireland",Queenstown,"Chicago, Illinois, US"
+595,0.0,2,male,1,0,26.0,36.0,"Liskeard, Cornwall, England",Southampton,"Spokane, Washington, US"
+596,0.0,3,male,1,1,24.15,36.0,"Kerksken, Belgium",Southampton,"Detroit, Michigan, US"
+598,0.0,3,male,0,0,0.0,49.0,"Millwood, England",Southampton,New York City
+599,0.0,3,male,0,0,7.225,18.0,"Kfar Mechi, Syria",Cherbourg,"Ottawa, Ontario, Canada"
+602,0.0,3,male,0,0,7.8958,42.0,"Unknown, Bulgaria",Southampton,New York City
+603,0.0,1,male,0,0,42.4,37.0,"Washington, DC, US",Southampton,"Washington, DC, US"
+604,0.0,3,male,0,0,8.05,44.0,"Unknown, Germany",Southampton,New York City
+606,0.0,3,male,1,0,15.55,36.0,"Helsingborg, Skåne, Sweden",Southampton,"Hartford, Connecticut, US"
+607,0.0,3,male,0,0,7.8958,30.0,"Vagovina, Croatia",Southampton,"Youngstown, Ohio, US"
+611,0.0,3,female,1,5,31.275,39.0,"Kisa, Östergötland, Sweden",Southampton,"Winnipeg, Manitoba, Canada"
+612,0.0,3,male,0,0,7.05,21.0,"Calheta, Madeira, Portugal",Southampton,New York City
+614,0.0,3,male,0,0,7.75,22.0,"Unknown, Ireland",Queenstown,New York City
+615,0.0,3,male,0,0,8.05,35.0,"Broomfield, Essex, England",Southampton,New York City
+617,0.0,3,male,1,1,14.4,34.0,"Göteborg, Västergötland, Sweden",Southampton,"Stanton, Iowa, US"
+618,0.0,3,female,1,0,16.1,26.0,"Scranton, Pennsylvania, US",Southampton,"Scranton, Pennsylvania, US"
+620,0.0,2,male,0,0,10.5,26.0,"Guernsey, Channel Islands",Southampton,"Elizabeth, New Jersey, US"
+621,0.0,3,male,1,0,14.4542,27.0,"Unknown, Lebanon",Cherbourg,"Wilkes-Barre, Pennsylvania, US"
+624,0.0,3,male,0,0,7.8542,21.0,"Copenhagen, Denmark",Southampton,"Racine, Wisconsin, US"
+625,0.0,3,male,0,0,16.1,20.0,"Treherbert, Glamorgan, Wales",Southampton,New York City
+626,0.0,1,male,0,0,32.3208,61.0,"Haddonfield, New Jersey, US",Southampton,"Haddonfield, New Jersey, US"
+627,0.0,2,male,0,0,12.35,52.0,"Glasgow, Scotland",Queenstown,"Tuxford, Saskatchewan, Canada"
+629,0.0,3,male,0,0,7.8958,26.0,"Unknown, Bulgaria",Southampton,"Chicago, Illinois, US"
+630,0.0,3,male,0,0,7.7333,17.0,"Kingwilliamstown, Cork, Ireland",Queenstown,New York City
+632,0.0,3,male,0,0,7.0542,51.0,"Fyrnan, Småland, Sweden",Southampton,"Spokane, Washington, US"
+634,0.0,1,male,0,0,0.0,29.0,"Belfast, Ireland, UK",Belfast,"New York, New York, US"
+635,0.0,3,female,3,2,27.9,9.0,"Hällekis, Västergötland, Sweden",Southampton,"Iron Mountain, Michigan, US"
+637,0.0,3,male,0,0,7.925,32.0,"Valitaipale, Finland",Southampton,New York City
+638,0.0,2,male,1,1,26.25,31.0,"Bishopstoke, Hampshire, England",Southampton,"Payette, Idaho, US"
+639,0.0,3,female,0,5,39.6875,41.0,"Ylihärmä, South Ostrobothnia, Finland",Southampton,"Coal Center, Pennsylvania, US"
+640,0.0,3,male,1,0,16.1,36.0,"Maidstone, Kent, England",Southampton,"Clinton, New York, US"
+641,0.0,3,male,0,0,7.8542,20.0,"Eskilstrup, Denmark",Southampton,"Portland, Oregon, US"
+643,0.0,3,female,3,2,27.9,2.0,"Hällekis, Västergötland, Sweden",Southampton,"Iron Mountain, Michigan, US"
+647,0.0,3,male,0,0,7.8958,19.0,"Kricina, Croatia",Southampton,"Great Falls, Montana, US"
+649,0.0,3,male,0,0,7.55,18.0,"Market Drayton, Shropshire, England",Southampton,"Schenectady, New York, US"
+651,0.0,3,male,0,0,7.8958,23.0,"Unknown, Bulgaria",Southampton,"Chicago, Illinois, US"
+653,0.0,3,male,0,0,8.4333,21.0,"Etnesjøen, Hordaland Fylke, Norway",Southampton,"Story City, Iowa, US"
+655,0.0,3,female,0,0,6.75,18.0,"Whitechurch, Cork, Ireland",Queenstown,"Charlestown, US"
+656,0.0,2,male,2,0,73.5,24.0,"Fritham, Hampshire, England",Southampton,"Eden, Manitoba, Canada"
+657,0.0,3,male,0,0,7.8958,27.0,"Unknown, Bulgaria",Southampton,"Chicago, Illinois, US"
+658,0.0,3,female,1,1,15.5,32.0,"Carrowskehine, Mayo, Ireland",Queenstown,"Chicago, Illinois, US"
+659,0.0,2,male,0,0,13.0,23.0,"London, England, UK",Southampton,"Detroit, Michigan, US"
+660,0.0,1,male,0,2,113.275,58.0,"Lexington, Massachusetts, US",Cherbourg,"Lexington, Massachusetts, US"
+662,0.0,3,male,0,0,7.225,40.0,"Tripoli, Lebanon",Cherbourg,New York City
+663,0.0,1,male,0,0,25.5875,37.0,"Dublin, Ireland, UK[note 1]",Southampton,"Vancouver, British Columbia, Canada"
+664,0.0,3,male,0,0,7.4958,36.0,"Gumostnik, Lovec, Bulgaria",Southampton,"Chicago, Illinois, US"
+666,0.0,2,male,2,0,73.5,30.0,"Fritham, Hampshire, England",Southampton,"The Pas, Manitoba, Canada"
+667,0.0,2,male,0,0,13.0,25.0,"Southsea, Hampshire, England",Southampton,New York City
+668,0.0,3,male,0,0,7.775,49.0,"Hogstad, Norway",Southampton,New York City
+669,0.0,3,male,0,0,8.05,43.0,"Unknown (Estonia?), Russia (Estonia?)",Southampton,New York City
+672,0.0,1,male,1,0,52.0,31.0,"Montreal, Quebec, Canada",Southampton,"Montreal, Quebec, Canada"
+673,0.0,2,male,0,0,10.5,71.0,"Guernsey, Channel Islands",Southampton,"Toledo, Ohio, US"
+675,0.0,2,male,0,0,0.0,15.0,"Belfast, Northern Ireland, UK",Belfast,New York City
+676,0.0,3,male,0,0,7.775,18.0,"Tofta, Uppland, Sweden",Southampton,"Joliet, Illinois, US"
+677,0.0,3,male,0,0,8.05,33.0,"Basingstoke, Hampshire, England",Southampton,"Halley, Michigan, US"
+679,0.0,3,female,1,6,46.9,43.0,"Fulham, England",Southampton,"Niagara Falls, New York, US"
+681,0.0,3,female,0,0,8.1375,26.0,"Cahir, Tipperary, Ireland",Queenstown,New York City
+683,0.0,3,male,0,0,9.225,20.0,"Vikersund, Norway",Southampton,"Carneron, US"
+684,0.0,3,male,5,2,46.9,14.0,"Fulham, England",Southampton,"Niagara Falls, New York, US"
+685,0.0,2,male,1,1,39.0,60.0,"Cape Town, South Africa, UK[note 4]",Southampton,"Seattle, Washington, US"
+686,0.0,2,male,1,2,41.5792,25.0,"Paris, France",Cherbourg,"Cap-Haïtien, Haiti"
+687,0.0,3,male,4,1,39.6875,15.0,"Ylihärmä, South Ostrobothnia, Finland",Southampton,"Coal Center, Pennsylvania, US"
+688,0.0,3,male,0,0,10.1708,19.0,"Gornji Miholjac, Croatia",Southampton,New York City
+689,0.0,3,male,0,0,7.7958,18.0,"Björkeberga, Skåne, Sweden",Southampton,New York City
+694,0.0,3,male,0,0,7.225,25.0,"Kfar Mechi, Syria",Cherbourg,"Ottawa, Ontario, Canada"
+695,0.0,1,male,0,0,26.55,59.0,"New York, New York, US",Southampton,"New York, New York, US"
+696,0.0,2,male,0,0,13.5,52.0,"Bronx, New York, US",Southampton,"Bronx, New York, US"
+697,0.0,3,male,0,0,8.05,44.0,"Leixlip, Kildare, Ireland",Queenstown,"New Haven, Connecticut, US"
+699,0.0,1,male,1,1,110.8833,49.0,"Haverford, Pennsylvania, US",Cherbourg,"Haverford, Pennsylvania, US"
+700,0.0,3,male,0,0,7.65,42.0,"Borgund, Møre og Romsdal, Norway",Southampton,"Milwaukee, Wisconsin, US"
+703,0.0,3,female,0,1,14.4542,12.0,"Kafr Mishki, Lebanon",Cherbourg,"Ottawa, Ontario, Canada"
+704,0.0,3,male,0,0,7.7417,29.0,"Caltra, Galway, Ireland",Queenstown,New York City
+705,0.0,3,male,1,0,7.8542,26.0,"Holeby, Storstrøm, Denmark",Southampton,"Racine, Wisconsin, US"
+706,0.0,2,male,0,0,26.0,38.0,"Birmingham, Worcester, England",Southampton,"Los Angeles, US"
+712,0.0,1,male,0,0,26.55,45.0,"Portland, Oregon, US",Southampton,"Portland, Oregon, US"
+714,0.0,3,male,0,0,9.4833,29.0,"Stamford, Connecticut, US",Southampton,"Stamford, Connecticut, US"
+715,0.0,2,male,0,0,13.0,52.0,"Bronx, New York, US",Southampton,"Bronx, New York, US"
+716,0.0,3,male,0,0,7.65,19.0,"Ålesund, Møre og Romsdal, Norway",Southampton,"Minneapolis, Minnesota, US"
+719,0.0,3,male,0,0,15.5,19.0,"Dublin, Ireland",Queenstown,New York City
+720,0.0,3,male,0,0,7.775,33.0,"Minneapolis, Minnesota, US",Southampton,"Minneapolis, Minnesota, US"
+722,0.0,3,male,1,0,7.0542,17.0,"Eskilstrup, Denmark",Southampton,"Portland, Oregon, US"
+723,0.0,2,male,0,0,13.0,34.0,"Abbeyleix, Laois, Ireland[note 1]",Southampton,"Vancouver, British Columbia, Canada"
+724,0.0,2,male,0,0,13.0,50.0,"Southampton, Hampshire, England",Southampton,"Boston, Massachusetts, US"
+726,0.0,3,male,0,0,8.6625,20.0,"Konjsko Brdo, Croatia",Southampton,"Chicago, Illinois, US"
+729,0.0,2,male,1,0,26.0,25.0,"Skara, Västergötland, Sweden",Southampton,"Rockford, Illinois, US"
+730,0.0,3,female,1,0,7.925,25.0,"Paavola, Northern Ostrobothnia, Finland",Southampton,New York City
+732,0.0,3,male,0,0,18.7875,11.0,"Fredericksburg, Virginia, US",Cherbourg,"Fredericksburg, Virginia, US"
+733,0.0,2,male,0,0,0.0,39.0,"Belfast, Ireland",Belfast,New York City
+734,0.0,2,male,0,0,13.0,23.0,"St. Ives, Cornwall, England",Southampton,"Calumet, Michigan, US"
+735,0.0,2,male,0,0,13.0,23.0,"London, England",Southampton,New York City
+736,0.0,3,male,0,0,16.1,28.0,"Tonypandy, Glamorgan, Wales",Southampton,New York City
+737,0.0,3,female,1,3,34.375,48.0,"Rotherfield, East Sussex, England",Southampton,"Essex County, New Jersey, US"
+739,0.0,3,male,0,0,7.8958,20.0,"Malka Ribnya, Troyan, Bulgaria",Southampton,"Chicago, Illinois, US"
+740,0.0,3,male,0,0,7.8958,32.0,"Unknown, Bulgaria",Southampton,"Chicago, Illinois, US"
+742,0.0,1,male,1,0,78.85,36.0,"London, England, UK",Southampton,"New York, New York, US"
+744,0.0,3,male,1,0,16.1,27.0,"Convoy, Donegal, Ireland, England",Southampton,"Philadelphia, Pennsylvania, US"
+746,0.0,1,male,1,1,71.0,70.0,"Milwaukee, Wisconsin, US",Southampton,"Milwaukee, Wisconsin, US"
+747,0.0,3,male,1,1,20.25,16.0,"East Providence, Rhode Island, US",Southampton,"East Providence, Rhode Island, US"
+749,0.0,1,male,1,0,53.1,18.0,"New York, New York, US",Southampton,"New York, New York, US"
+750,0.0,3,male,0,0,7.75,31.0,"Brooklyn, New York, US",Queenstown,"Brooklyn, New York, US"
+753,0.0,3,male,0,0,9.5,35.0,"Denderhoutem, Belgium",Southampton,New York City
+754,0.0,3,male,0,0,7.8958,23.0,"Gumostnik, Lovec, Bulgaria",Southampton,"Chicago, Illinois, US"
+757,0.0,3,male,0,0,7.7958,24.0,"Dagsås, Halland, Sweden",Southampton,"Tower, Minnesota, US"
+758,0.0,2,male,0,0,11.5,18.0,"Penzance, Cornwall, England",Southampton,"Akron, Ohio, US"
+759,0.0,3,male,0,0,8.05,34.0,"Strood, Kent, England",Southampton,"Detroit, Michigan, US"
+761,0.0,3,male,0,0,14.5,21.0,"Wollaston, Northamptonshire, England",Southampton,"Kitchener, Ontario, Canada"
+762,0.0,3,male,0,0,7.125,41.0,"Kauhajoki, Finland",Southampton,"Sudbury, Ontario, Canada"
+765,0.0,3,male,0,0,7.775,16.0,"Kårberg, Örebro, Sweden",Southampton,"Jerome Junction, Arizona, US"
+767,0.0,1,male,0,0,39.6,45.0,"Philadelphia, Pennsylvania, US",Cherbourg,"Philadelphia, Pennsylvania, US"
+768,0.0,3,female,0,0,7.75,32.0,"Carrowkehine, Mayo, Ireland",Queenstown,"Chicago, Illinois, US"
+769,0.0,3,male,1,0,24.15,27.0,"Askeaton, Limerick, Ireland",Queenstown,"Brooklyn, New York, US"
+770,0.0,3,male,0,0,8.3625,32.0,"Bokn, Norway",Southampton,"Portland, North Dakota, US"
+771,0.0,3,male,0,0,9.5,24.0,"Haaltert, Belgium",Southampton,"Detroit, Michigan, US"
+772,0.0,3,male,0,0,7.8542,48.0,"Portland, Oregon, US",Southampton,"Portland, Oregon, US"
+773,0.0,2,female,0,0,10.5,57.0,"Southampton, Hampshire, England",Southampton,New York City
+774,0.0,3,male,0,0,7.225,29.0,"Unknown, Lebanon",Cherbourg,New York City
+776,0.0,3,male,0,0,7.75,18.0,"Kristinehamn, Värmland, Sweden",Southampton,"Chicago, Illinois, US"
+777,0.0,3,male,0,0,7.75,20.0,"Cahir, Tipperary, Ireland",Queenstown,New York City
+779,0.0,3,male,0,0,7.7375,22.0,"Currafarry, Galway, Ireland",Queenstown,New York City
+783,0.0,1,male,0,0,30.0,29.0,"Springfield, Massachusetts, US",Southampton,"Springfield, Massachusetts, US"
+784,0.0,3,male,1,2,23.45,35.0,"Thornton Heath, London, England",Southampton,"New London, Connecticut, US"
+785,0.0,3,male,0,0,7.05,25.0,"Buenos Aires, Argentina",Southampton,New York City
+786,0.0,3,male,0,0,7.25,25.0,"Manchester, England",Southampton,"Montreal, Quebec, Canada"
+788,0.0,3,male,4,1,29.125,8.0,"Athlone, Westmeath, Ireland",Queenstown,"Spokane, Washington, US"
+790,0.0,1,male,0,0,79.2,46.0,"Paris, France",Cherbourg,"New York, New York, US"
+791,0.0,3,male,0,0,7.75,23.0,"Athenry, Galway, Ireland",Queenstown,"Auburndale, Florida, US"
+792,0.0,2,male,0,0,26.0,18.0,"Liverpool, Merseyside, England",Southampton,"Montreal, Quebec, Canada"
+793,0.0,3,female,8,2,69.55,20.0,"Peterborough, Cambridgeshire, England",Southampton,"Jacksonville, Florida, US"
+794,0.0,1,male,0,0,30.6958,42.0,"New York, New York, US",Cherbourg,"New York, New York, US"
+795,0.0,3,male,0,0,7.8958,25.0,"Terziysko, Troyan, Bulgaria",Southampton,"Chicago, Illinois, US"
+796,0.0,2,male,0,0,13.0,39.0,"Middleburg Heights, Ohio, US",Southampton,"Middleburg Heights, Ohio, US"
+799,0.0,3,male,0,0,7.2292,33.0,"Beirut, Lebanon",Cherbourg,New York City
+800,0.0,3,female,1,1,24.15,30.0,"Kerksken, Belgium",Southampton,"Detroit, Michigan, US"
+801,0.0,2,male,0,0,13.0,34.0,"Southampton, Hampshire, England",Southampton,New York City
+806,0.0,3,male,0,0,7.775,31.0,"Duluth, Minnesota, US",Southampton,"Duluth, Minnesota, US"
+807,0.0,1,male,0,0,0.0,39.0,"Belfast, Ireland, UK",Belfast,"New York, New York, US"
+808,0.0,3,female,0,0,7.775,18.0,"Stockholm, Uppland, Sweden",Southampton,"Iron Mountain, Michigan, US"
+809,0.0,2,male,0,0,13.0,31.0,"Harrow, London, England",Southampton,New York City
+811,0.0,3,male,0,0,7.8875,23.0,"Great Yarmouth, Norfolk, England",Southampton,"Albion, Michigan, US"
+812,0.0,3,male,0,0,24.15,39.0,"West Bromwich, Staffordshire, England",Southampton,"Pontiac, Michigan, US"
+813,0.0,2,male,0,0,10.5,35.0,"Landrake, Cornwall, England",Southampton,"Nashua, New Hampshire, US"
+814,0.0,3,female,4,2,31.275,6.0,"Kisa, Östergötland, Sweden",Southampton,"Winnipeg, Manitoba, Canada"
+815,0.0,3,male,0,0,8.05,22.0,"Portage la Prairie, Manitoba, Canada",Southampton,"Des Moines, Iowa, US"
+816,0.0,1,male,0,0,0.0,39.0,"Liverpool, Merseyside, England, UK",Southampton,"New York, New York, US"
+817,0.0,3,female,0,0,7.925,23.0,"Turku, Finland",Southampton,New York City
+818,0.0,2,male,1,1,37.0042,31.0,"Montreal, Quebec, Canada",Cherbourg,"Montreal, Quebec, Canada"
+819,0.0,3,male,0,0,6.45,43.0,"Karlshamn, Blekinge, Sweden",Southampton,New York City
+820,0.0,3,male,3,2,27.9,11.0,"Hällekis, Västergötland, Sweden",Southampton,"Iron Mountain, Michigan, US"
+823,0.0,1,male,0,0,0.0,38.0,"Rotterdam, The Netherlands",Southampton,"New York, New York, US"
+825,0.0,3,male,4,1,39.6875,2.0,"Ylihärmä, South Ostrobothnia, Finland",Southampton,"Coal Center, Pennsylvania, US"
+826,0.0,3,male,0,0,6.95,42.0,"Clonbur, Galway, Ireland",Queenstown,"Pittsburgh, Pennsylvania, US"
+827,0.0,3,male,0,0,56.4958,23.0,"Hong Kong, China",Southampton,New York City
+833,0.0,3,male,0,0,7.2292,30.0,"Tebnine, Lebanon",Cherbourg,New York City
+834,0.0,3,male,0,0,7.8542,23.0,"Krakoryd, Småland, Sweden",Southampton,"Bloomington, Indiana, US"
+835,0.0,3,male,0,0,8.3,15.0,"Southall, London, England",Southampton,New York City
+837,0.0,3,male,0,0,8.6625,21.0,"Streklevac, Slovenia",Southampton,"Aurora, Illinois, US"
+838,0.0,3,male,0,0,8.05,20.0,"London, England",Southampton,New York City
+841,0.0,3,male,0,0,7.925,19.0,"Salo, Finland",Southampton,"Astoria, Oregon, US"
+842,0.0,2,male,0,0,10.5,16.0,"Huntingfield, Suffolk, England",Southampton,New York City
+844,0.0,3,male,0,0,6.4375,30.0,"Áyios Sóstis, Greece",Cherbourg,"Stamford, Connecticut US"
+845,0.0,3,male,0,0,8.6625,17.0,"Lipova Glavica, Croatia",Southampton,"Hammond, Indiana, US"
+846,0.0,3,male,0,0,7.55,40.0,"Cincinnati, Ohio, US",Southampton,"Cincinnati, Ohio, US"
+847,0.0,3,male,8,2,69.55,18.0,"Peterborough, Cambridgeshire, England",Southampton,"Jacksonville, Florida, US"
+848,0.0,3,male,0,0,7.8958,35.0,"Gumostnik, Lovec, Bulgaria",Southampton,"Chicago, Illinois, US"
+849,0.0,2,male,0,1,33.0,39.0,"London, England",Southampton,"Chicago, Illinois, US"
+851,0.0,3,male,4,2,31.275,4.0,"Kisa, Östergötland, Sweden",Southampton,"Winnipeg, Manitoba, Canada"
+852,0.0,3,male,0,0,7.775,74.0,"Reftele, Småland, Sweden",Southampton,"Effington Rut, South Dakota, US"
+853,0.0,3,female,1,1,15.2458,7.0,"Unknown, Lebanon",Cherbourg,"Kent, British Columbia, Canada"
+855,0.0,2,female,1,0,26.0,45.0,"London, England, UK",Southampton,New York City
+860,0.0,3,male,0,0,7.2292,30.0,"Tebnine, Lebanon",Cherbourg,New York City
+861,0.0,3,male,2,0,14.1083,41.0,"Racine, Wisconsin, US",Southampton,"Racine, Wisconsin, US"
+862,0.0,2,male,1,0,11.5,20.0,"Porthleven, Cornwall, England",Southampton,"Camden, New Jersey, US"
+864,0.0,3,female,8,2,69.55,14.0,"Peterborough, Cambridgeshire, England",Southampton,"Jacksonville, Florida, US"
+865,0.0,2,male,0,0,13.0,24.0,"Clevedon, North Somerset England",Southampton,New York City
+868,0.0,1,male,0,0,50.4958,31.0,"Trenton, New Jersey, US",Southampton,"Trenton, New Jersey, US"
+869,0.0,3,male,0,0,9.5,23.0,"Haaltert, East Flanders, Belgium",Southampton,"Detroit, Michigan, US"
+871,0.0,3,male,0,0,7.8958,26.0,"Bosanska Krupa, Bosnia",Southampton,"Harrisburg, Pennsylvania, US"
+873,0.0,1,male,0,0,5.0,33.0,"New York, New York, US",Southampton,"New York, New York, US"
+874,0.0,3,male,0,0,9.0,46.0,"Zwevezele, Belgium",Southampton,"Detroit, Michigan, US"
+877,0.0,3,male,0,0,9.8458,19.0,"Kokkola, Finland",Southampton,"Waukegan, Illinois, US"
+878,0.0,3,male,0,0,7.8958,19.0,"Gumostnik, Lovec, Bulgaria",Southampton,"Chicago, Illinois, US"
+879,0.0,3,male,0,0,7.8958,23.0,"Knezhni Lak, Troyan, Bulgaria",Southampton,"Chicago, Illinois, US"
+882,0.0,3,male,0,0,7.8958,33.0,"Milje, Slovenia",Cherbourg,New York City
+883,0.0,3,female,0,0,10.5167,22.0,"Stockholm, Sweden",Southampton,"Chicago, Illinois, US"
+884,0.0,2,male,0,0,10.5,28.0,"Plymouth, Devon, England",Southampton,"Houghton, Michigan, US"
+885,0.0,3,male,0,0,7.05,25.0,"London, England",Southampton,"Buffalo, New York, US"
+886,0.0,3,female,0,5,29.125,39.0,"Athlone, Westmeath, Ireland",Queenstown,"Spokane, Washington, US"
+887,0.0,2,male,0,0,13.0,27.0,"Gudinė, Lithuania [76]",Southampton,"Worcester, Massachusetts, US"
+889,0.0,3,female,1,2,23.45,7.0,"Thornton Heath, London, England",Southampton,"New London, Connecticut, US"
+891,0.0,3,male,0,0,7.75,43.0,"Patrickswell, Limerick, Ireland",Queenstown,New York City
