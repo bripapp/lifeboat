@@ -1,4 +1,6 @@
-import os
+# https://github.com/pycaret/deployment-heroku/blob/master/app.py
+# ^ example using pycaret and pickle in app deployment
+
 import pandas as pd
 import numpy as np
 import flask
@@ -28,7 +30,7 @@ def result():
         
         result = ValuePredictor(to_predict_list)
         prediction = str(result)
-        return render_template('lifeboat.html', prediction=prediction)
+        return render_template('predict.html', prediction=prediction)
 
     if __name__ == '__main__':
         app.run(debug=True) 
